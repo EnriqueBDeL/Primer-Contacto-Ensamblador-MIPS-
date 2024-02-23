@@ -19,7 +19,7 @@ syscall
 
 
      
-   bltz $t0, end # Si el número es negativo, salta a la etiqueta "end"
+   bltz $t0, end # Si el nÃºmero es negativo, salta a la etiqueta "end"
 
 add $t3, $t3, $t0
 
