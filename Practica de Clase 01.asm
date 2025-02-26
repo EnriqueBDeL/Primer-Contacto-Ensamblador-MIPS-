@@ -1,9 +1,13 @@
+# Escribe un programa en lenguaje ensamblador MIPS que reciba una cadena de texto en minúsculas y la convierta a mayúsculas. 
+# El programa debe mostrar la cadena original y la cadena convertida en mayúsculas.
+
+
 .data
 
 source: .asciiz "hola hola"
 destiny: .space 50
 mensaje: .asciiz "La cadena original era: "
-mensaje2: .asciiz "\nLa cadena en may�sculas es: "
+mensaje2: .asciiz "\nLa cadena en mayúsculas es: "
 
 .text
 
